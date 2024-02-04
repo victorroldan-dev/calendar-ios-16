@@ -10,11 +10,33 @@ import UIKit
 class ViewController: UIViewController {
     //Listado de fechas que quiers mostrar en el calendario
     let holidays = [
+        //Enero
         "2024-01-01",
         "2024-01-08",
+        //Marzo
         "2024-03-25",
         "2024-03-28", 
         "2024-03-29",
+        //Mayo
+        "2024-05-01",
+        "2024-05-13",
+        //Junio
+        "2024-06-03",
+        "2024-06-10",
+        //Julio
+        "2024-07-01",
+        "2024-07-20",
+        //Agosto
+        "2024-08-07",
+        "2024-08-19",
+        //Octubre
+        "2024-10-14",
+        //Noviembre
+        "2024-11-04",
+        "2024-11-11",
+        //Diciembre
+        "2024-12-08",
+        "2024-12-25",
     ]
     
     lazy var calendar : UICalendarView = {
